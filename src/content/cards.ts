@@ -21,8 +21,8 @@ export const CARDS: CardDef[] = [
 
   // ---------- Low-Slope ----------
   { id: 'low-slope-01', zone: 'low-slope', name: 'NDL Warranty', termKey: 'No Dollar Limit (NDL) Warranty', illustrationPath: '/illustrations/low-slope-01.png', isMastery: false, blurb: 'Brand-specific NDL warranty: JM TPO vs Duro-Last PVC, fully adhered vs mechanically fastened.' },
-  { id: 'low-slope-02', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-02.png', isMastery: false, blurb: '' },
-  { id: 'low-slope-03', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-03.png', isMastery: false, blurb: '' },
+  { id: 'low-slope-02', zone: 'low-slope', name: 'EPDM NDL', termKey: 'EPDM', illustrationPath: '/illustrations/low-slope-02.png', isMastery: false, blurb: 'EPDM brand warranties: Carlisle Gold Seal vs Elevate Red Shield, ballasted vs adhered vs mechanically fastened.' },
+  { id: 'low-slope-03', zone: 'low-slope', name: 'Mod-Bit NDL', termKey: 'Modified Bitumen', illustrationPath: '/illustrations/low-slope-03.png', isMastery: false, blurb: 'Modified bitumen brand warranties: Siplast, Soprema, JM Peak Advantage; hot vs cold vs torch vs self-adhered.' },
   { id: 'low-slope-04', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-04.png', isMastery: false, blurb: '' },
   { id: 'low-slope-05', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-05.png', isMastery: false, blurb: '' },
   { id: 'low-slope-06', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-06.png', isMastery: false, blurb: '' },
