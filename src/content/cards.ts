@@ -27,9 +27,9 @@ export const CARDS: CardDef[] = [
   { id: 'low-slope-05', zone: 'low-slope', name: 'Cool Roof', termKey: 'Cool Roof', illustrationPath: '/illustrations/low-slope-05.png', isMastery: false, blurb: 'Solar reflectance, emissivity, SRI, CRRC labeling, Title 24 cool-roof compliance.' },
   { id: 'low-slope-06', zone: 'low-slope', name: 'Insulation', termKey: 'Polyisocyanurate (PolyISO)', illustrationPath: '/illustrations/low-slope-06.png', isMastery: false, blurb: 'PolyISO, EPS, XPS, LTTR, R-value derating in cold, EPS/XPS-under-PVC compatibility.' },
   { id: 'low-slope-07', zone: 'low-slope', name: 'Cover Board', termKey: 'Cover Board', illustrationPath: '/illustrations/low-slope-07.png', isMastery: false, blurb: 'DensDeck vs HD ISO vs perlite vs fiberboard; cover board often decides hail survival.' },
-  { id: 'low-slope-08', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-08.png', isMastery: false, blurb: '' },
-  { id: 'low-slope-09', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-09.png', isMastery: false, blurb: '' },
-  { id: 'low-slope-10', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-10.png', isMastery: false, blurb: '' },
+  { id: 'low-slope-08', zone: 'low-slope', name: 'Coatings & Restoration', termKey: 'Roof Coating', illustrationPath: '/illustrations/low-slope-08.png', isMastery: false, blurb: 'Acrylic vs silicone vs urethane; coat vs recover vs replace; recoatability lock-in.' },
+  { id: 'low-slope-09', zone: 'low-slope', name: 'Wind Uplift', termKey: 'Wind Uplift', illustrationPath: '/illustrations/low-slope-09.png', isMastery: false, blurb: 'FM I-ratings (I-90, I-120), ASCE 7 wind zones (field/perimeter/corner), fastener density, FA vs MF.' },
+  { id: 'low-slope-10', zone: 'low-slope', name: 'Drainage', termKey: 'Positive Drainage', illustrationPath: '/illustrations/low-slope-10.png', isMastery: false, blurb: 'Positive drainage 48-hour rule, ponding as warranty + design defect, tapered insulation, scuppers, crickets.' },
   { id: 'low-slope-11-mastery', zone: 'low-slope', name: 'Low-Slope Mastery', termKey: '__mastery__', illustrationPath: '/illustrations/low-slope-mastery.png', isMastery: true, blurb: 'Final exam across the Low-Slope zone.' },
 
   // ---------- Code ----------
