@@ -18,6 +18,9 @@ import { shingles05 } from './shingles/05-ice-dams';
 import { shingles06 } from './shingles/06-hail';
 import { shingles07 } from './shingles/07-wind';
 import { shingles08 } from './shingles/08-impact-resistant';
+import { shingles09 } from './shingles/09-geometry';
+import { shingles10 } from './shingles/10-brand-warranties';
+import { shingles11Mastery } from './shingles/11-mastery';
 
 export const BOSS_BANKS: Record<string, BossBank> = {
   'low-slope-01': lowSlope01,
@@ -39,6 +42,9 @@ export const BOSS_BANKS: Record<string, BossBank> = {
   'shingles-06': shingles06,
   'shingles-07': shingles07,
   'shingles-08': shingles08,
+  'shingles-09': shingles09,
+  'shingles-10': shingles10,
+  'shingles-11-mastery': shingles11Mastery,
 };
 
 export function bossBank(bossId: string): BossBank | undefined {

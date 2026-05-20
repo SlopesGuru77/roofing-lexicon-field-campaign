@@ -15,8 +15,8 @@ export const CARDS: CardDef[] = [
   { id: 'shingles-06', zone: 'shingles', name: 'Hail on Shingles', termKey: 'Granule Loss', illustrationPath: '/illustrations/shingles-06.png', isMastery: false, blurb: 'Functional vs cosmetic, granule-loss patterns, Haag thresholds, age/condition, directional clustering.' },
   { id: 'shingles-07', zone: 'shingles', name: 'Wind on Shingles', termKey: 'Starter Shingle', illustrationPath: '/illustrations/shingles-07.png', isMastery: false, blurb: 'Sealant strip bonding, 4-nail vs 6-nail, ASTM D7158 wind ratings, workmanship vs storm patterns.' },
   { id: 'shingles-08', zone: 'shingles', name: 'Class 4 IR', termKey: 'Impact-Resistant Shingle', illustrationPath: '/illustrations/shingles-08.png', isMastery: false, blurb: 'UL 2218 Class 4 testing, insurance premium discount paperwork, raised-threshold-not-immunity.' },
-  { id: 'shingles-09', zone: 'shingles', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/shingles-09.png', isMastery: false, blurb: '' },
-  { id: 'shingles-10', zone: 'shingles', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/shingles-10.png', isMastery: false, blurb: '' },
+  { id: 'shingles-09', zone: 'shingles', name: 'Roof Geometry', termKey: 'Roof Slope (Pitch)', illustrationPath: '/illustrations/shingles-09.png', isMastery: false, blurb: 'Slope notation, hip vs gable, valleys as flow concentrators, dormers, low-slope minimums.' },
+  { id: 'shingles-10', zone: 'shingles', name: 'Shingle Brand Warranties', termKey: 'GAF Golden Pledge', illustrationPath: '/illustrations/shingles-10.png', isMastery: false, blurb: 'GAF Golden Pledge / OC Platinum / CertainTeed SureStart Plus / IKO ShieldPro Plus and their certified-contractor programs.' },
   { id: 'shingles-11-mastery', zone: 'shingles', name: 'Shingles Mastery', termKey: '__mastery__', illustrationPath: '/illustrations/shingles-mastery.png', isMastery: true, blurb: 'Final exam across the Shingles zone.' },
 
   // ---------- Low-Slope ----------
