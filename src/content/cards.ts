@@ -20,7 +20,7 @@ export const CARDS: CardDef[] = [
   { id: 'shingles-11-mastery', zone: 'shingles', name: 'Shingles Mastery', termKey: '__mastery__', illustrationPath: '/illustrations/shingles-mastery.png', isMastery: true, blurb: 'Final exam across the Shingles zone.' },
 
   // ---------- Low-Slope ----------
-  { id: 'low-slope-01', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-01.png', isMastery: false, blurb: '' },
+  { id: 'low-slope-01', zone: 'low-slope', name: 'NDL Warranty', termKey: 'No Dollar Limit (NDL) Warranty', illustrationPath: '/illustrations/low-slope-01.png', isMastery: false, blurb: 'Brand-specific NDL warranty: JM TPO vs Duro-Last PVC, fully adhered vs mechanically fastened.' },
   { id: 'low-slope-02', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-02.png', isMastery: false, blurb: '' },
   { id: 'low-slope-03', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-03.png', isMastery: false, blurb: '' },
   { id: 'low-slope-04', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-04.png', isMastery: false, blurb: '' },
