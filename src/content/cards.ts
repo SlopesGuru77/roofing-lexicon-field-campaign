@@ -1,0 +1,67 @@
+import type { CardDef, Zone } from '../types';
+
+// 33 cards = 10 standard + 1 mastery per zone × 3 zones.
+// Card IDs use the pattern: <zone-slug>-<NN>[-mastery]
+// term_key references must match a TERMS[].t value in library.ts
+// Owner to finalize specific term selections; placeholders shown for shape.
+
+export const CARDS: CardDef[] = [
+  // ---------- Shingles ----------
+  { id: 'shingles-01', zone: 'shingles', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/shingles-01.png', isMastery: false, blurb: '' },
+  { id: 'shingles-02', zone: 'shingles', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/shingles-02.png', isMastery: false, blurb: '' },
+  { id: 'shingles-03', zone: 'shingles', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/shingles-03.png', isMastery: false, blurb: '' },
+  { id: 'shingles-04', zone: 'shingles', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/shingles-04.png', isMastery: false, blurb: '' },
+  { id: 'shingles-05', zone: 'shingles', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/shingles-05.png', isMastery: false, blurb: '' },
+  { id: 'shingles-06', zone: 'shingles', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/shingles-06.png', isMastery: false, blurb: '' },
+  { id: 'shingles-07', zone: 'shingles', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/shingles-07.png', isMastery: false, blurb: '' },
+  { id: 'shingles-08', zone: 'shingles', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/shingles-08.png', isMastery: false, blurb: '' },
+  { id: 'shingles-09', zone: 'shingles', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/shingles-09.png', isMastery: false, blurb: '' },
+  { id: 'shingles-10', zone: 'shingles', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/shingles-10.png', isMastery: false, blurb: '' },
+  { id: 'shingles-11-mastery', zone: 'shingles', name: 'Shingles Mastery', termKey: '__mastery__', illustrationPath: '/illustrations/shingles-mastery.png', isMastery: true, blurb: 'Final exam across the Shingles zone.' },
+
+  // ---------- Low-Slope ----------
+  { id: 'low-slope-01', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-01.png', isMastery: false, blurb: '' },
+  { id: 'low-slope-02', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-02.png', isMastery: false, blurb: '' },
+  { id: 'low-slope-03', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-03.png', isMastery: false, blurb: '' },
+  { id: 'low-slope-04', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-04.png', isMastery: false, blurb: '' },
+  { id: 'low-slope-05', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-05.png', isMastery: false, blurb: '' },
+  { id: 'low-slope-06', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-06.png', isMastery: false, blurb: '' },
+  { id: 'low-slope-07', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-07.png', isMastery: false, blurb: '' },
+  { id: 'low-slope-08', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-08.png', isMastery: false, blurb: '' },
+  { id: 'low-slope-09', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-09.png', isMastery: false, blurb: '' },
+  { id: 'low-slope-10', zone: 'low-slope', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/low-slope-10.png', isMastery: false, blurb: '' },
+  { id: 'low-slope-11-mastery', zone: 'low-slope', name: 'Low-Slope Mastery', termKey: '__mastery__', illustrationPath: '/illustrations/low-slope-mastery.png', isMastery: true, blurb: 'Final exam across the Low-Slope zone.' },
+
+  // ---------- Code ----------
+  { id: 'code-01', zone: 'code', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/code-01.png', isMastery: false, blurb: '' },
+  { id: 'code-02', zone: 'code', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/code-02.png', isMastery: false, blurb: '' },
+  { id: 'code-03', zone: 'code', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/code-03.png', isMastery: false, blurb: '' },
+  { id: 'code-04', zone: 'code', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/code-04.png', isMastery: false, blurb: '' },
+  { id: 'code-05', zone: 'code', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/code-05.png', isMastery: false, blurb: '' },
+  { id: 'code-06', zone: 'code', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/code-06.png', isMastery: false, blurb: '' },
+  { id: 'code-07', zone: 'code', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/code-07.png', isMastery: false, blurb: '' },
+  { id: 'code-08', zone: 'code', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/code-08.png', isMastery: false, blurb: '' },
+  { id: 'code-09', zone: 'code', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/code-09.png', isMastery: false, blurb: '' },
+  { id: 'code-10', zone: 'code', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/code-10.png', isMastery: false, blurb: '' },
+  { id: 'code-11-mastery', zone: 'code', name: 'Code Mastery', termKey: '__mastery__', illustrationPath: '/illustrations/code-mastery.png', isMastery: true, blurb: 'Final exam across the Code zone.' },
+];
+
+export const ZONES: Zone[] = ['shingles', 'low-slope', 'code'];
+
+export const ZONE_LABEL: Record<Zone, string> = {
+  shingles: 'Shingles',
+  'low-slope': 'Low-Slope',
+  code: 'Code',
+};
+
+export function cardsByZone(zone: Zone): CardDef[] {
+  return CARDS.filter(c => c.zone === zone);
+}
+
+export function cardById(id: string): CardDef | undefined {
+  return CARDS.find(c => c.id === id);
+}
+
+export function masteryCard(zone: Zone): CardDef | undefined {
+  return CARDS.find(c => c.zone === zone && c.isMastery);
+}
