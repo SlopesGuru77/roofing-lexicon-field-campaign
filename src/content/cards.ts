@@ -7,10 +7,10 @@ import type { CardDef, Zone } from '../types';
 
 export const CARDS: CardDef[] = [
   // ---------- Shingles ----------
-  { id: 'shingles-01', zone: 'shingles', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/shingles-01.png', isMastery: false, blurb: '' },
-  { id: 'shingles-02', zone: 'shingles', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/shingles-02.png', isMastery: false, blurb: '' },
-  { id: 'shingles-03', zone: 'shingles', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/shingles-03.png', isMastery: false, blurb: '' },
-  { id: 'shingles-04', zone: 'shingles', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/shingles-04.png', isMastery: false, blurb: '' },
+  { id: 'shingles-01', zone: 'shingles', name: 'Shingle Anatomy', termKey: 'Asphalt Shingle', illustrationPath: '/illustrations/shingles-01.png', isMastery: false, blurb: '3-tab vs architectural/laminated, fiberglass mat, sealant strip, starter, hip-and-ridge.' },
+  { id: 'shingles-02', zone: 'shingles', name: 'Underlayment', termKey: 'Ice and Water Shield', illustrationPath: '/illustrations/shingles-02.png', isMastery: false, blurb: 'Synthetic vs felt underlayment, Ice & Water Shield at eaves/valleys, deck condition.' },
+  { id: 'shingles-03', zone: 'shingles', name: 'Flashing', termKey: 'Step Flashing', illustrationPath: '/illustrations/shingles-03.png', isMastery: false, blurb: 'Drip edge, step flashing, kick-out flashing, valley styles (open/closed-cut/woven).' },
+  { id: 'shingles-04', zone: 'shingles', name: 'Ventilation', termKey: 'Balanced Ventilation', illustrationPath: '/illustrations/shingles-04.png', isMastery: false, blurb: 'Intake/exhaust balance, 1:300 ratio, NFA, ridge/soffit/gable/power vents, depressurization.' },
   { id: 'shingles-05', zone: 'shingles', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/shingles-05.png', isMastery: false, blurb: '' },
   { id: 'shingles-06', zone: 'shingles', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/shingles-06.png', isMastery: false, blurb: '' },
   { id: 'shingles-07', zone: 'shingles', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/shingles-07.png', isMastery: false, blurb: '' },

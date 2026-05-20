@@ -10,6 +10,10 @@ import { lowSlope08 } from './low-slope/08-coatings';
 import { lowSlope09 } from './low-slope/09-wind-uplift';
 import { lowSlope10 } from './low-slope/10-drainage';
 import { lowSlope11Mastery } from './low-slope/11-mastery';
+import { shingles01 } from './shingles/01-anatomy';
+import { shingles02 } from './shingles/02-underlayment';
+import { shingles03 } from './shingles/03-flashing';
+import { shingles04 } from './shingles/04-ventilation';
 
 export const BOSS_BANKS: Record<string, BossBank> = {
   'low-slope-01': lowSlope01,
@@ -23,6 +27,10 @@ export const BOSS_BANKS: Record<string, BossBank> = {
   'low-slope-09': lowSlope09,
   'low-slope-10': lowSlope10,
   'low-slope-11-mastery': lowSlope11Mastery,
+  'shingles-01': shingles01,
+  'shingles-02': shingles02,
+  'shingles-03': shingles03,
+  'shingles-04': shingles04,
 };
 
 export function bossBank(bossId: string): BossBank | undefined {
