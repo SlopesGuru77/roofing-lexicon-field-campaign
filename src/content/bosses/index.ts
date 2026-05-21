@@ -25,6 +25,9 @@ import { code01 } from './code/01-claim-fundamentals';
 import { code02 } from './code/02-depreciation';
 import { code03 } from './code/03-adjusters';
 import { code04 } from './code/04-engineer-reports';
+import { code05 } from './code/05-chain-of-custody';
+import { code06 } from './code/06-building-codes';
+import { code07 } from './code/07-statutes';
 
 export const BOSS_BANKS: Record<string, BossBank> = {
   'low-slope-01': lowSlope01,
@@ -53,6 +56,9 @@ export const BOSS_BANKS: Record<string, BossBank> = {
   'code-02': code02,
   'code-03': code03,
   'code-04': code04,
+  'code-05': code05,
+  'code-06': code06,
+  'code-07': code07,
 };
 
 export function bossBank(bossId: string): BossBank | undefined {
