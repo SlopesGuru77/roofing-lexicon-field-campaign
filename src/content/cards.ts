@@ -40,9 +40,9 @@ export const CARDS: CardDef[] = [
   { id: 'code-05', zone: 'code', name: 'Chain of Custody & Evidence', termKey: 'Chain of Custody (Forensic)', illustrationPath: '/illustrations/code-05.png', isMastery: false, blurb: 'Test-cut protocol, photo documentation standard, sample storage, metadata integrity — protocol as evidence defense.' },
   { id: 'code-06', zone: 'code', name: 'Building Codes', termKey: 'IRC (International Residential Code)', illustrationPath: '/illustrations/code-06.png', isMastery: false, blurb: 'IBC vs IRC, adopted-edition-with-amendments, AHJ confirmation, Ordinance-or-Law (O&L) supplements.' },
   { id: 'code-07', zone: 'code', name: 'Statutes & Limitations', termKey: 'Statute of Limitations (Property Claims)', illustrationPath: '/illustrations/code-07.png', isMastery: false, blurb: 'Three running clocks: notice of loss, Proof of Loss, state SoL; ROR; EUO; appraisal vs litigation.' },
-  { id: 'code-08', zone: 'code', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/code-08.png', isMastery: false, blurb: '' },
-  { id: 'code-09', zone: 'code', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/code-09.png', isMastery: false, blurb: '' },
-  { id: 'code-10', zone: 'code', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/code-10.png', isMastery: false, blurb: '' },
+  { id: 'code-08', zone: 'code', name: 'PA vs Restoration Contractor', termKey: 'Restoration Contractor vs Public Adjuster', illustrationPath: '/illustrations/code-08.png', isMastery: false, blurb: 'The licensing line: contractor does work + damage docs, public adjuster negotiates claim; AOB regulation; defensible contract scope.' },
+  { id: 'code-09', zone: 'code', name: 'Hail Forensics', termKey: 'Haag Engineering', illustrationPath: '/illustrations/code-09.png', isMastery: false, blurb: 'Haag scope-and-limits, indirect-impact evidence on soft metals, age/condition adjustment, PolyISO crushing, facer separation.' },
+  { id: 'code-10', zone: 'code', name: 'Storm-Restoration Compliance Marketing', termKey: 'Storm-Restoration Solicitation Laws', illustrationPath: '/illustrations/code-10.png', isMastery: false, blurb: 'Post-storm registration, statutory rescission notices, deductible-rebate prohibition, contract template hygiene, team standing orders.' },
   { id: 'code-11-mastery', zone: 'code', name: 'Code Mastery', termKey: '__mastery__', illustrationPath: '/illustrations/code-mastery.png', isMastery: true, blurb: 'Final exam across the Code zone.' },
 ];
 

@@ -28,6 +28,10 @@ import { code04 } from './code/04-engineer-reports';
 import { code05 } from './code/05-chain-of-custody';
 import { code06 } from './code/06-building-codes';
 import { code07 } from './code/07-statutes';
+import { code08 } from './code/08-pa-vs-restoration';
+import { code09 } from './code/09-hail-forensics';
+import { code10 } from './code/10-compliance-marketing';
+import { code11Mastery } from './code/11-mastery';
 
 export const BOSS_BANKS: Record<string, BossBank> = {
   'low-slope-01': lowSlope01,
@@ -59,6 +63,10 @@ export const BOSS_BANKS: Record<string, BossBank> = {
   'code-05': code05,
   'code-06': code06,
   'code-07': code07,
+  'code-08': code08,
+  'code-09': code09,
+  'code-10': code10,
+  'code-11-mastery': code11Mastery,
 };
 
 export function bossBank(bossId: string): BossBank | undefined {
