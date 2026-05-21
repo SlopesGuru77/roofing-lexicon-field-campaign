@@ -33,10 +33,10 @@ export const CARDS: CardDef[] = [
   { id: 'low-slope-11-mastery', zone: 'low-slope', name: 'Low-Slope Mastery', termKey: '__mastery__', illustrationPath: '/illustrations/low-slope-mastery.png', isMastery: true, blurb: 'Final exam across the Low-Slope zone.' },
 
   // ---------- Code ----------
-  { id: 'code-01', zone: 'code', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/code-01.png', isMastery: false, blurb: '' },
-  { id: 'code-02', zone: 'code', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/code-02.png', isMastery: false, blurb: '' },
-  { id: 'code-03', zone: 'code', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/code-03.png', isMastery: false, blurb: '' },
-  { id: 'code-04', zone: 'code', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/code-04.png', isMastery: false, blurb: '' },
+  { id: 'code-01', zone: 'code', name: 'Claim Fundamentals', termKey: 'Cause of Loss', illustrationPath: '/illustrations/code-01.png', isMastery: false, blurb: 'Cause of Loss, ACV vs RCV, percentage wind/hail deductibles, the two-check structure.' },
+  { id: 'code-02', zone: 'code', name: 'Depreciation', termKey: 'Recoverable Depreciation', illustrationPath: '/illustrations/code-02.png', isMastery: false, blurb: 'Recoverable vs non-recoverable, ACV-only endorsements on older roofs, age-weighted depreciation supplements.' },
+  { id: 'code-03', zone: 'code', name: 'Adjusters', termKey: 'Adjuster', illustrationPath: '/illustrations/code-03.png', isMastery: false, blurb: 'Field / Desk / Independent / Public — who decides what, and the contractor-vs-PA licensing boundary.' },
+  { id: 'code-04', zone: 'code', name: 'Engineer Reports', termKey: 'Engineer Rebuttal', illustrationPath: '/illustrations/code-04.png', isMastery: false, blurb: 'Carrier engineer reports as retained opinions; methodology-gap rebuttals; when to hire independent engineering.' },
   { id: 'code-05', zone: 'code', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/code-05.png', isMastery: false, blurb: '' },
   { id: 'code-06', zone: 'code', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/code-06.png', isMastery: false, blurb: '' },
   { id: 'code-07', zone: 'code', name: 'TBD-term', termKey: 'TBD', illustrationPath: '/illustrations/code-07.png', isMastery: false, blurb: '' },
